@@ -4,8 +4,8 @@ $android: 70%;
 $javascript: 75%;
 $typescript: 70%;
 
-html,body{
- overflow-x: hidden;
+html {
+  overflow-y: auto;
 }
 
 body {
@@ -15,6 +15,7 @@ body {
   background-repeat: no-repeat;
   background-color: black;
   color: aliceblue;
+  overflow: hidden;
 }
 
 header {
