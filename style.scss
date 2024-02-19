@@ -163,6 +163,7 @@ main {
       img {
         height: auto;
         width: 350px;
+        max-width: 100%;
         opacity: 1;
         transition: 0.3s;
         -webkit-mask-image: -webkit-gradient(
