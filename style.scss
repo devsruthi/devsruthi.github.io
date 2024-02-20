@@ -163,9 +163,11 @@ main {
       img {
         height: auto;
         width: 350px;
-        max-width: 100%;
         opacity: 1;
         transition: 0.3s;
+        @media screen and (max-width: 1450px) {
+          max-width: 100%;
+        }
         -webkit-mask-image: -webkit-gradient(
           linear,
           left top,
